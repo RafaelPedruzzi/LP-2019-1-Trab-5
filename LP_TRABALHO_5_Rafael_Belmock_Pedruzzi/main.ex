@@ -116,13 +116,13 @@ p = TrabIO.read_Entry()
 dist = TrabIO.read_Dist()
 
 
-#Enum.map(p, fn n -> IO.inspect n end)
+Enum.map(p, fn n -> IO.inspect n end)
 
 # Enum.each(p, fn(p) ->
 #   IO.inspect p.coord, label: "#{p.i} "
 #   end)
 
-#IO.inspect dist, label: "Dist = "
+IO.inspect dist, label: "Dist = "
 
 #IO.inspect Point.dist(hd(p), hd(tl p))
 
